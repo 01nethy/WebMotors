@@ -570,12 +570,7 @@ h6 {
   #hero .btn-watch-video {
     font-size: 13px;
   }
-  #carrosel{
-    flex: 0 0 auto;
-    width: 50%;
-  }
 }
-
 
 @media (max-height: 500px) {
   #hero {
