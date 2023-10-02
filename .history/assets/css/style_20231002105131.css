@@ -612,11 +612,11 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .section-title h2 {
-  font-size: 15px;
+  font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
@@ -934,7 +934,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
-  padding: 25px 50px;
+  padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -962,7 +962,7 @@ section {
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 24px;
 }
 
 .services .icon-box h4 a {
