@@ -180,7 +180,6 @@ h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
-  width: 100%;
 }
 
 #header .logo a {
@@ -589,13 +588,11 @@ h6 {
   }
 }
 
-@media (max-height: 580px) {
+@media (max-height: 500px) {
   #hero {
     height: 120vh;
   }
- #navbar{
-  justify-content: center!important;
- }
+ 
 }
 
 /*--------------------------------------------------------------

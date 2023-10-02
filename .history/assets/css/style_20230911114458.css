@@ -150,7 +150,7 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
   line-height: 0;
   transition: 0.3s;
-  margin-left: 32px;
+  margin-left: 35px;
 }
 
 #topbar .social-links a:hover {
@@ -180,7 +180,6 @@ h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
-  width: 100%;
 }
 
 #header .logo a {
@@ -360,15 +359,6 @@ h6 {
 
   .navbar ul {
     display: none;
-  }
-
-  #header .logo {
-    width: 200px;
-  }
-
-  #topbar .social-links a {
-    margin-left: 15px;
-
   }
 }
 
@@ -584,18 +574,13 @@ h6 {
     flex: 0 0 auto;
     width: 50%;
   }
-  #topajust{
-    padding: 0px;
-  }
 }
 
-@media (max-height: 580px) {
+
+@media (max-height: 500px) {
   #hero {
     height: 120vh;
   }
- #navbar{
-  justify-content: center!important;
- }
 }
 
 /*--------------------------------------------------------------
