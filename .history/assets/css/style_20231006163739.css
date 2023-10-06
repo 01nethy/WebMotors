@@ -958,8 +958,10 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box .icon img {
-  width: 130%;
+.services .icon-box .icon i {
+  color: #000000;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 {

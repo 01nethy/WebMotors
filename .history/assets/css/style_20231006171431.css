@@ -959,7 +959,9 @@ section {
 }
 
 .services .icon-box .icon img {
-  width: 130%;
+  
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 {
