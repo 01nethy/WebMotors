@@ -362,8 +362,12 @@ h6 {
     display: none;
   }
 
+  #header .logo {
+    width: 200px;
+  }
+
   #topbar .social-links a {
-    margin-left: 32px;
+    margin-left: 15px;
 
   }
 }
@@ -582,6 +586,9 @@ h6 {
     flex: 0 0 auto;
     width: 50%;
   }
+  #topajust{
+    padding: 0px;
+  }
 }
 
 @media (max-height: 580px) {
@@ -649,9 +656,9 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 4px 0;
+  padding: 20px 0;
   background-color: #f1f6fe;
- 
+  min-height: 40px;
 }
 
 .breadcrumbs h2 {

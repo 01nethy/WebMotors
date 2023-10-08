@@ -353,7 +353,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -362,8 +362,12 @@ h6 {
     display: none;
   }
 
+  #header .logo {
+    width: 200px;
+  }
+
   #topbar .social-links a {
-    margin-left: 32px;
+    margin-left: 15px;
 
   }
 }
@@ -582,6 +586,9 @@ h6 {
     flex: 0 0 auto;
     width: 50%;
   }
+  #topajust{
+    padding: 0px;
+  }
 }
 
 @media (max-height: 580px) {
@@ -607,7 +614,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 55px;
+  padding-bottom: 40px;
 }
 
 .section-title h2 {
@@ -649,9 +656,9 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 4px 0;
+  padding: 20px 0;
   background-color: #f1f6fe;
- 
+  min-height: 40px;
 }
 
 .breadcrumbs h2 {
@@ -905,7 +912,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 6px 0;
+  padding: 12px 0;
   text-align: center;
 }
 
