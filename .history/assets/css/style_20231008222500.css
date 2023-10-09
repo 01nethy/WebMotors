@@ -1981,13 +1981,5 @@ section {
   }
 
   #quant{
-    font-size: 12px;
-  }
-
-  #form1{
-    width: 23%;
-  }
-
-  #imgcart{
-    width: 50px;
+    width: 100%;
   }
