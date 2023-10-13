@@ -2059,8 +2059,8 @@ form.user .btn-user {
 
 #edit .logo {
   font-size: 30px;
-  margin-top: 260px;
-  padding-left: 125px;
+  margin: 0;
+  padding: 0;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -2069,5 +2069,5 @@ form.user .btn-user {
 }
 
 #edit .logo a{
-  color: black;
+  color: #fff;
 }

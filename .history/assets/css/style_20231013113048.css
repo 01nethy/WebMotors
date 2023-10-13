@@ -1992,11 +1992,7 @@ section {
     width: 50px;
   }
 
-.bg-login-image {
-    background: url(https://equipoten.com/wp-content/uploads/2023/03/oficina-mecanica-moderna-inovacao.jpg) ;
-    background-position: center;
-    background-size: cover;
-  }
+
 .form-control {
     display: block;
     width: 100%;
@@ -2057,17 +2053,6 @@ form.user .btn-user {
   font-weight: 400;
 }
 
-#edit .logo {
-  font-size: 30px;
-  margin-top: 260px;
-  padding-left: 125px;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
-  width: 100%;
-}
-
-#edit .logo a{
-  color: black;
+.tm a:hover{
+  color: darkred;
 }

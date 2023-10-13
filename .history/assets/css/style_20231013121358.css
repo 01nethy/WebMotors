@@ -2059,7 +2059,7 @@ form.user .btn-user {
 
 #edit .logo {
   font-size: 30px;
-  margin-top: 260px;
+  margin-top: 250px;
   padding-left: 125px;
   line-height: 1;
   font-weight: 600;
@@ -2069,5 +2069,5 @@ form.user .btn-user {
 }
 
 #edit .logo a{
-  color: black;
+  color: #fff;
 }
