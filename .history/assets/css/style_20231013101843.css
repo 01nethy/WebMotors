@@ -1992,27 +1992,9 @@ section {
     width: 50px;
   }
 
-
-.botao .btn-facebook{
+.btn-facebook{
   color: #fff;
     background-color: #3b5998;
     border-color: #fff;
-}
-form.user .btn-user {
-  font-size: .8rem;
-  border-radius: 10rem;
-  padding: 0.75rem 1rem;
-}
-.botao .btn-block {
-  display: block;
-  width: 100%;
-}
-.botao .btn-google {
-  color: #fff;
-  background-color: #ea4335;
-  border-color: #fff;
-}
 
-.form-group {
-  margin-bottom: 1rem;
 }
