@@ -112,7 +112,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-7">
+          <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
@@ -131,6 +131,18 @@
               </div>
               <div class="swiper-pagination"></div>
             </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Web design</li>
+                <li><strong>Client</strong>: ASU Company</li>
+                <li><strong>Project date</strong>: 01 March, 2020</li>
+                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              </ul>
+            </div>
             <div class="portfolio-description">
               <h2>This is an example of portfolio detail</h2>
               <p>
@@ -140,51 +152,6 @@
                 eius.
               </p>
             </div>
-
-          </div>
-
-          <div class="col-lg-5">
-            <div class="portfolio-info">
-              <h3>Project information <br>
-                <div class="rate">
-                  <input type="radio" id="star5" name="rate" value="5" checked />
-                  <label for="star5" title="text">5 stars</label>
-                  <input type="radio" id="star4" name="rate" value="4" checked />
-                  <label for="star4" title="text">4 stars</label>
-                  <input type="radio" id="star3" name="rate" value="3" checked />
-                  <label for="star3" title="text">3 stars</label>
-                  <input type="radio" id="star2" name="rate" value="2" />
-                  <label for="star2" title="text">2 stars</label>
-                  <input type="radio" id="star1" name="rate" value="1" />
-                  <label for="star1" title="text">1 star</label>
-                </div>
-              </h3>
-              <p class="cea">R$&nbsp;119,99 <span> à vista </span></p>
-
-              <div class="col-sm-5">
-                <label for="color">Color</label>
-                <select id="color" name="color" class="form-control">
-                  <option>Blue</option>
-                  <option>Green</option>
-                  <option>Red</option>
-                </select>
-              </div>
-              <div class="col-sm-4 product-count">
-                <label for="size">Quantity</label>
-                <form action="#" class="display-flex">
-                  <div class="qtyminus">-</div>
-                  <input type="text" name="quantity" value="1" class="qty">
-                  <div class="qtyplus">+</div>
-                </form>
-              </div>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-
           </div>
         </div>
       </div>
@@ -198,10 +165,25 @@
        </ol>   -->
       <!-- Wrapper for carousel items -->
       <div class="carousel-inner">
-        <h2 class="px-4 mb-4">Produtos relacionados</h2>
         <div class="item carousel-item active">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="card h-100">
+                <img class="img-responsive img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="...">
+                <div class="thumb-content">
+                  <!-- Product name-->
+                  <h4 class="">Fancy Product</h4>
+                  <p class="item-price">
+                    <strike>$400.00</strike> <span>$369.00</span>
+                  </p>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <div class="row-cols-2 row-cols-xl-5 ">
             <div class="col-sm-2">
               <div class="card h-100">
                 <img class="img-responsive img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="...">
@@ -234,103 +216,92 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-2">
-              <div class="card h-100">
-                <img class="img-responsive img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="...">
+            <div id="carrosel" class="col-sm-3">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="https://image.ibb.co/g0CAPp/ipad.jpg" class="img-responsive img-fluid" alt="">
+                </div>
                 <div class="thumb-content">
-                  <!-- Product name-->
-                  <h4 class="">Fancy Product</h4>
-                  <p class="item-price">
-                    <strike>$400.00</strike> <span>$369.00</span>
-                  </p>
-                </div>
-                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a>
+                  <h4>Nikon DSLR</h4>
+                  <p class="item-price"><strike>R$315.00</strike> <span>R$250.00</span></p>
+                  <div class="star-rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                    </ul>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-2">
-              <div class="card h-100">
-                <img class="img-responsive img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="...">
-                <div class="thumb-content">
-                  <!-- Product name-->
-                  <h4 class="">Fancy Product</h4>
-                  <p class="item-price">
-                    <strike>$400.00</strike> <span>$369.00</span>
-                  </p>
-                </div>
-                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-2">
-              <div class="card h-100">
-                <img class="img-responsive img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="...">
-                <div class="thumb-content">
-                  <!-- Product name-->
-                  <h4 class="">Fancy Product</h4>
-                  <p class="item-price">
-                    <strike>$400.00</strike> <span>$369.00</span>
-                  </p>
-                </div>
-                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a>
-                  </div>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="item carousel-item">
-          <div class="row-cols-2 row-cols-xl-5 ">
-            <div class="col-sm-2">
-              <div class="card h-100">
-                <img class="img-responsive img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="...">
-                <div class="thumb-content">
-                  <!-- Product name-->
-                  <h4 class="">Fancy Product</h4>
-                  <p class="item-price">
-                    <strike>$400.00</strike> <span>$369.00</span>
-                  </p>
+          <div class="row">
+            <div id="carrosel" class="col-sm-3">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="https://image.ibb.co/g0CAPp/ipad.jpg" class="img-responsive img-fluid" alt="">
                 </div>
-                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a>
+                <div class="thumb-content">
+                  <h4>Sony Play Station</h4>
+                  <p class="item-price"><strike>R$289.00</strike> <span>R$269.00</span></p>
+                  <div class="star-rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                    </ul>
                   </div>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-2">
-              <div class="card h-100">
-                <img class="img-responsive img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="...">
-                <div class="thumb-content">
-                  <!-- Product name-->
-                  <h4 class="">Fancy Product</h4>
-                  <p class="item-price">
-                    <strike>$400.00</strike> <span>$369.00</span>
-                  </p>
+            <div id="carrosel" class="col-sm-3">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="https://image.ibb.co/g0CAPp/ipad.jpg" class="img-responsive img-fluid" alt="">
                 </div>
-                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a>
+                <div class="thumb-content">
+                  <h4>Macbook Pro</h4>
+                  <p class="item-price"><strike>R$1099.00</strike> <span>R$869.00</span></p>
+                  <div class="star-rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                    </ul>
                   </div>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-2">
-              <div class="card h-100">
-                <img class="img-responsive img-fluid" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="...">
-                <div class="thumb-content">
-                  <!-- Product name-->
-                  <h4 class="">Fancy Product</h4>
-                  <p class="item-price">
-                    <strike>$400.00</strike> <span>$369.00</span>
-                  </p>
+
+            <div id="carrosel" class="col-sm-3">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="https://image.ibb.co/g0CAPp/ipad.jpg" class="img-responsive img-fluid" alt="">
                 </div>
-                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                  <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a>
+                <div class="thumb-content">
+                  <h4>Apple Watch</h4>
+                  <p class="item-price"><strike>R$350.00</strike> <span>R$330.00</span></p>
+                  <div class="star-rating">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                    </ul>
                   </div>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
               </div>
             </div>

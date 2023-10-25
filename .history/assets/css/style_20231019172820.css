@@ -1126,7 +1126,7 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 65px;
+  margin-bottom: 30px;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1236,7 +1236,7 @@ section {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
-  padding-bottom: 26px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
 
@@ -2109,91 +2109,4 @@ form.user .btn-user {
 
 #edit .logo a span {
   color: red;
-}
-
-.rate {
-  float: left;
-  padding: 0 10px 0 0;
-}
-.rate:not(:checked) > input {
-  position:absolute;
-  top:-9999px;
-}
-.rate:not(:checked) > label {
-  float: right;
-  width: 13px;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: pointer;
-  font-size: 17px;
-  color: #ccc;
-  margin-bottom: 0;
-  line-height: 21px;
-}
-.rate:not(:checked) > label:before {
-  content: '\2605';
-}
-.rate > input:checked ~ label {
-  color: #ffc700;    
-}
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
-  color: #deb217;  
-}
-.rate > input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
-  color: #c59b08;
-}
-
-.cea{
-  font-size: 26px;
-  font-weight: 700;
-  color: red;
-}
- .cea span{
-  font-size: 15px;
- }
-
- .product-dtl p {
-	font-size: 14px;
-	line-height: 24px;
-	color: #7a7a7a;
-}
-.product-dtl .form-control {
-	font-size: 15px;
-}
-.product-dtl label {
-	line-height: 16px;
-	font-size: 15px;
-}
-.form-control:focus {
-	outline: none;
-	box-shadow: none;
-}
-.product-count {
-	margin-top: 15px; 
-}
-.product-count .qtyminus,
-.product-count .qtyplus {
-	width: 34px;
-    height: 34px;
-    background: #212529;
-    text-align: center;
-    font-size: 19px;
-    line-height: 36px;
-    color: #fff;
-    cursor: pointer;
-}
-.product-count .qtyminus {
-	border-radius: 3px 0 0 3px; 
-}
-.product-count .qtyplus {
-	border-radius: 0 3px 3px 0; 
-}
-.product-count .qty {
-	width: 60px;
-	text-align: center;
 }

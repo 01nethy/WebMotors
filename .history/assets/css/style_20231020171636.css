@@ -1236,7 +1236,7 @@ section {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
-  padding-bottom: 26px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
 
@@ -2121,14 +2121,14 @@ form.user .btn-user {
 }
 .rate:not(:checked) > label {
   float: right;
-  width: 13px;
+  width: 15px;
   overflow: hidden;
   white-space: nowrap;
   cursor: pointer;
-  font-size: 17px;
-  color: #ccc;
-  margin-bottom: 0;
-  line-height: 21px;
+  font-size: 21px;
+  color:#ccc;
+margin-bottom: 0;
+line-height: 21px;
 }
 .rate:not(:checked) > label:before {
   content: '\2605';
@@ -2146,54 +2146,4 @@ form.user .btn-user {
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
   color: #c59b08;
-}
-
-.cea{
-  font-size: 26px;
-  font-weight: 700;
-  color: red;
-}
- .cea span{
-  font-size: 15px;
- }
-
- .product-dtl p {
-	font-size: 14px;
-	line-height: 24px;
-	color: #7a7a7a;
-}
-.product-dtl .form-control {
-	font-size: 15px;
-}
-.product-dtl label {
-	line-height: 16px;
-	font-size: 15px;
-}
-.form-control:focus {
-	outline: none;
-	box-shadow: none;
-}
-.product-count {
-	margin-top: 15px; 
-}
-.product-count .qtyminus,
-.product-count .qtyplus {
-	width: 34px;
-    height: 34px;
-    background: #212529;
-    text-align: center;
-    font-size: 19px;
-    line-height: 36px;
-    color: #fff;
-    cursor: pointer;
-}
-.product-count .qtyminus {
-	border-radius: 3px 0 0 3px; 
-}
-.product-count .qtyplus {
-	border-radius: 0 3px 3px 0; 
-}
-.product-count .qty {
-	width: 60px;
-	text-align: center;
 }

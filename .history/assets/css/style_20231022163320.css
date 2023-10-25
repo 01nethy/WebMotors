@@ -117,7 +117,7 @@ h6 {
 --------------------------------------------------------------*/
 #topbar {
   background: red;
-  height: 40px;
+  height: 30px;
   font-size: 14px;
   transition: all 0.5s;
   color: #fff;
@@ -180,6 +180,7 @@ h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
 #header .logo a {
@@ -352,7 +353,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 800px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -361,13 +362,8 @@ h6 {
     display: none;
   }
 
-  #ajusteLogo a{
-    flex: 0 0 auto;
-    width: 33.33333333%; 
-  }
-
   #topbar .social-links a {
-    margin-left: 15px;
+    margin-left: 32px;
 
   }
 }
@@ -470,7 +466,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
+  height: 360px;
   background: url("../img/hero-bg.jpg") top left;
   background-size: cover;
   position: relative;
@@ -492,8 +488,9 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 37px;
+    font-weight: 700;
+    text-align: center;
   line-height: 56px;
   color: #222222;
   font-family: "Poppins", sans-serif;
@@ -505,9 +502,10 @@ h6 {
 
 #hero h2 {
   color: #555555;
-  margin: 5px 0 30px 0;
-  font-size: 24px;
-  font-weight: 400;
+    margin: 0px 0 30px 0;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
 }
 
 #hero .btn-get-started {
@@ -586,18 +584,20 @@ h6 {
   }
 }
 
-
-@media (max-height: 500px) {
+@media (max-height: 580px) {
   #hero {
     height: 120vh;
   }
+ #navbar{
+  justify-content: center!important;
+ }
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Sections General 
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -607,11 +607,11 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 55px;
 }
 
 .section-title h2 {
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
@@ -634,8 +634,9 @@ section {
 }
 
 .section-title p {
-  margin: 15px auto 0 auto;
-  font-weight: 600;
+  margin: 0px auto 0 auto;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 @media (min-width: 1024px) {
@@ -648,9 +649,9 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
+  padding: 4px 0;
   background-color: #f1f6fe;
-  min-height: 40px;
+ 
 }
 
 .breadcrumbs h2 {
@@ -703,7 +704,7 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services .icon-box {
-  padding: 30px;
+  padding: 11px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -733,19 +734,22 @@ section {
 
 .featured-services .icon {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .featured-services .icon i {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1;
   color: red;
   transition: all 0.3s ease-in-out;
 }
 
 .featured-services .title {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .featured-services .title a {
@@ -901,8 +905,10 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 15px 0;
-  text-align: center;
+  padding: 0px 0;
+    /* text-align: center; */
+    margin: 0 15%;
+    width: 70%;
 }
 
 .clients img {
@@ -928,7 +934,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
-  padding: 80px 20px;
+  padding: 15px 15px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -947,16 +953,15 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box .icon i {
-  color: #000000;
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
+.services .icon-box .icon img {
+  width: 130%;
 }
 
 .services .icon-box h4 {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .services .icon-box h4 a {
@@ -1020,7 +1025,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 80px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
@@ -1121,7 +1126,7 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 65px;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1231,7 +1236,7 @@ section {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 26px;
   border-bottom: 1px solid #eee;
 }
 
@@ -1823,9 +1828,44 @@ section {
   }
 }
 
+.card-img-top {
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+  width: 100%
+}
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-radius: 0.375rem;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(0.375rem - 1px);
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: #fff;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
 
 .carousel {
-	margin: 50px auto;
+	margin: 20px auto;
 	padding: 0 70px;
 }
 .carousel .item {
@@ -1842,27 +1882,23 @@ section {
 	max-width: 100%;
 	max-height: 100%;
 	display: inline-block;
-	position: absolute;
-	bottom: 0;
-	margin: 0 auto;
-	left: 0;
-	right: 0;
+
 }
 .carousel .item h4 {
-	font-size: 18px;
-	margin: 10px 0;
+	font-size: 21px;
 }
 .carousel .item .btn {
-	color: #333;
-    border-radius: 0;
-    font-size: 11px;
-    text-transform: uppercase;
-    font-weight: bold;
-    background: none;
-    border: 1px solid #ccc;
-    padding: 5px 10px;
-    margin-top: 5px;
-    line-height: 16px;
+  color: #333;
+  border-radius: -13;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: none;
+  border: 1px solid #ccc;
+  padding: 10px 25px;
+  margin-top: 5px;
+  line-height: 16px;
+  margin-bottom: 5px;
 }
 .carousel .item .btn:hover, .carousel .item .btn:focus {
 	color: #fff;
@@ -1879,14 +1915,13 @@ section {
 	text-align: center;
 }
 .carousel .thumb-content {
-	padding: 15px;
+	padding: 24px;
 }
 .carousel .carousel-control {
 	height: 100px;
     width: 40px;
     background: none;
     margin: auto 0;
-    background: rgba(0, 0, 0, 0.2);
 }
 .carousel .carousel-control i {
     font-size: 30px;
@@ -1897,20 +1932,19 @@ section {
     z-index: 5;
     left: 0;
     right: 0;
-    color: rgba(0, 0, 0, 0.8);
+    color: black;
     text-shadow: none;
     font-weight: bold;
 }
 .carousel .item-price {
-	font-size: 13px;
-	padding: 2px 0;
+	font-size: 15px;
 }
 .carousel .item-price strike {
 	color: #999;
 	margin-right: 5px;
 }
 .carousel .item-price span {
-	color: #86bd57;
+	color:red;
 	font-size: 110%;
 }
 .carousel .carousel-control.left i {
@@ -1941,4 +1975,181 @@ section {
 .star-rating i {
 	font-size: 14px;
 	color: #ffc000;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  
+  .bg-grey {
+  background-color: #eae8e8;
+  }
+  
+  @media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  }
+  }
+  
+  @media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  }
+  }
+
+  #quant{
+    font-size: 12px;
+  }
+
+  #form1{
+    width: 23%;
+  }
+
+  #imgcart{
+    width: 50px;
+  }
+
+.bg-login-image {
+    background: url(https://equipoten.com/wp-content/uploads/2023/03/oficina-mecanica-moderna-inovacao.jpg) ;
+    background-position: center;
+    background-size: cover;
+   opacity: 90%;
+    width: 47%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: 0.35rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.custom-control-label {
+  vertical-align: top;
+  color: #6e707e;
+  line-height: 20px;
+  font-size: 90%;
+  margin-left: 5px;
+}
+form.user .form-control-user {
+    font-size: .8rem;
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+} 
+.botao .btn-facebook{
+  color: #fff;
+    background-color: #3b5998;
+    border-color: #fff;
+    margin-top: 0.5rem;
+}
+form.user .btn-user {
+  font-size: .8rem;
+  border-radius: 10rem;
+  padding: 0.75rem 1rem;
+}
+.botao .btn-block {
+  display: block;
+  width: 100%;
+}
+.botao .btn-google {
+  color: #fff;
+  background-color: #ea4335;
+  border-color: #fff;
+  margin-top: 20px;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.tm {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+#edit .logo {
+  font-size: 22px;
+  margin-top: -6px;
+  padding-bottom: 20px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+#edit .logo a{
+  color: black;
+}
+
+#edit .logo a span {
+  color: red;
+}
+
+.rate {
+  float: left;
+  padding: 0 10px 0 0;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 17px;
+  color: #ccc;
+  margin-bottom: 0;
+  line-height: 21px;
+}
+.rate:not(:checked) > label:before {
+  content: '\2605';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.cea{
+  font-size: 26px;
+  font-weight: 700;
+  color: red;
 }
