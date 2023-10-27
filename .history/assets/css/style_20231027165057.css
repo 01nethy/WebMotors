@@ -1706,7 +1706,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: black;
+  background: #0d58ba;
 }
 
 #footer .footer-top {
@@ -2033,7 +2033,7 @@ section {
 }
 .form-control {
   display: block;
-    width: 100%;
+    width: 80%;
     height: calc(1.5em + 0.75rem + 10px);
     padding: 0.375rem 0.75rem;
     font-size: 12px;

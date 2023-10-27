@@ -109,7 +109,9 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <div class="row gy-4 mb-5">
+
+        <div class="row gy-4">
+
           <div class="col-lg-7">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
@@ -125,10 +127,22 @@
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
                 </div>
+
               </div>
               <div class="swiper-pagination"></div>
-            </div>           
+            </div>
+            <div class="portfolio-description">
+              <h2>This is an example of portfolio detail</h2>
+              <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
+                Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
+                accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
+                eius.
+              </p>
+            </div>
+
           </div>
+
           <div class="col-lg-5">
             <div class="portfolio-info">
               <h3>Project information <br>
@@ -146,38 +160,38 @@
                 </div>
               </h3>
               <p class="cea">R$&nbsp;119,99 <span> à vista </span></p>
-             <h5>ou <strong>R$ 79,99</strong> em <strong>1x R$ 79,99</strong> no cartão sem juros</h5>
-              <div class="row py-5">
-                <div class="col-sm-6">
-                  <label id="label" for="color">Color</label>
+
+              <div class="row">
+                <div class="col-sm-5">
+                  <label for="color">Color</label>
                   <select id="color" name="color" class="form-control">
                     <option>Blue</option>
                     <option>Green</option>
                     <option>Red</option>
                   </select>
-                </div>                
+                </div>
+                <div class="col-sm-4 product-count">
+                  <label for="size">Quantity</label>
+                  <form action="#" class="display-flex">
+                    <div class="qtyminus">-</div>
+                    <input type="text" name="quantity" value="1" class="qty">
+                    <div class="qtyplus">+</div>
+                  </form>
+                </div>
               </div>
-              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a>
-              </div>             
+
+              <ul>
+                <li><strong>Category</strong>: Web design</li>
+                <li><strong>Client</strong>: ASU Company</li>
+                <li><strong>Project date</strong>: 01 March, 2020</li>
+                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              </ul>
             </div>
+
           </div>
-         
         </div>
       </div>
-
-      <div class="section-bg">
-        <div class="container portfolio-description">
-          <h2>This is an example of portfolio detail</h2>
-          <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
-            Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
-            accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-            eius.
-          </p>
-        </div>
-        </div>
     </section><!-- End Portfolio Details Section -->
-  
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
       <!-- <ol class="carousel-indicators">
