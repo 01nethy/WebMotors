@@ -602,9 +602,7 @@ section {
 }
 
 .section-bg {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
-
+  background-color: #f6f9fe;
 }
 
 .section-title {
@@ -1788,7 +1786,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 16px;
+  font-size: 18px;
   display: inline-block;
   background: red;
   color: #fff;
@@ -1797,8 +1795,8 @@ section {
   margin-right: 4px;
   border-radius: 4px;
   text-align: center;
-  width: 32px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   transition: 0.3s;
 }
 
@@ -2078,11 +2076,6 @@ form.user .btn-user {
   border-color: #fff;
   letter-spacing: 1.5px;  
 }
-
-form.user .btn-user:hover{
-  background-color: black;
-}
-
 .botao .btn-block {
   display: block;
   width: 100%;
@@ -2219,4 +2212,3 @@ form.user .btn-user:hover{
 #label{
   font-size: 14px;
 }
-

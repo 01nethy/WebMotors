@@ -602,9 +602,7 @@ section {
 }
 
 .section-bg {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
-
+  background-color: #f6f9fe;
 }
 
 .section-title {
@@ -1788,7 +1786,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 16px;
+  font-size: 18px;
   display: inline-block;
   background: red;
   color: #fff;
@@ -1797,8 +1795,8 @@ section {
   margin-right: 4px;
   border-radius: 4px;
   text-align: center;
-  width: 32px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   transition: 0.3s;
 }
 
@@ -2060,51 +2058,31 @@ input[type=checkbox], input[type=radio] {
   margin-left: 5px;
 }
 form.user .form-control-user {
-    font-size: 12px;
+    font-size: .8rem;
     border-radius: 10rem;
 } 
 .botao .btn-facebook{
   color: #fff;
     background-color: #3b5998;
     border-color: #fff;
-    margin-top: 0.5rem;    
+    margin-top: 0.5rem;
+    background-color: red;
 }
 form.user .btn-user {
-  font-size: 14px;
+  font-size: .8rem;
   border-radius: 10rem;
-  padding: 10px;
-  background-color: red;
-  color: #fff;
-  border-color: #fff;
-  letter-spacing: 1.5px;  
+  padding: 0.75rem 1rem;
 }
-
-form.user .btn-user:hover{
-  background-color: black;
-}
-
 .botao .btn-block {
   display: block;
   width: 100%;
 }
 .botao .btn-google {
-  color: black;
+  color: #fff;
+  background-color: #ea4335;
   border-color: #fff;
-  margin-top: 6px;
-  background-color: none;
-  border: 1px solid black;
-  border-radius: 10rem;
-  padding: 10px;
-  letter-spacing: 1.5px;  
-  font-size: 12px;
-  
+  margin-top: 20px;
 }
-.botao .btn-google:hover{
-  color: red;
-  border: 1px solid #ea4335;
-}
-
-
 .form-group {
   margin-bottom: 1rem;
 }
@@ -2115,7 +2093,7 @@ form.user .btn-user:hover{
 }
 
 #edit .logo {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -2219,4 +2197,3 @@ form.user .btn-user:hover{
 #label{
   font-size: 14px;
 }
-
