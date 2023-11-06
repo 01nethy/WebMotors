@@ -1654,6 +1654,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #fff;
+  padding: 0 0 30px 0;
   color: #444444;
   font-size: 14px;
 }
