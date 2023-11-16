@@ -1712,7 +1712,7 @@ section {
 }
 
 #footer .footer-top {
-  padding: 40px 0 30px 0;
+  padding: 60px 0 30px 0;
   background: #fff;
 }
 
@@ -1746,6 +1746,10 @@ section {
   color: #444444;
   position: relative;
   padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
 }
 
 #footer .footer-top .footer-links ul {

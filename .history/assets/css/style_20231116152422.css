@@ -1716,9 +1716,6 @@ section {
   background: #fff;
 }
 
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-}
 
 #footer .footer-top .footer-contact h3 {
   font-size: 24px;
@@ -1746,6 +1743,10 @@ section {
   color: #444444;
   position: relative;
   padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
 }
 
 #footer .footer-top .footer-links ul {
