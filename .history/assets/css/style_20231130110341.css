@@ -597,17 +597,18 @@ h6 {
 # Sections General 
 --------------------------------------------------------------*/
 section {
-  padding: 30px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: #f6f9fe;
+.section-bg{  
+ --bs-bg-opacity: 1;
+ background-color: #f1f6fe;
 }
 
 .section-title {
   text-align: center;
-  padding-bottom: 55px;
+  padding-bottom: 25px;
 }
 
 .section-title h2 {
@@ -906,9 +907,8 @@ section {
 --------------------------------------------------------------*/
 .clients {
   padding: 0px 0;
-    /* text-align: center; */
-    margin: 0 15%;
-    width: 70%;
+  text-align: center;
+   margin: 20px 0 13px 0;
 }
 
 .clients img {
@@ -1630,7 +1630,8 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -1652,14 +1653,12 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #fff;
-  padding: 0 0 30px 0;
   color: #444444;
   font-size: 14px;
-  background: #f1f6fe;
 }
 
 #footer .footer-newsletter {
-  padding: 50px 0;
+  padding: 30px 0;
   background: #f1f6fe;
   text-align: center;
   font-size: 15px;
@@ -1667,7 +1666,7 @@ section {
 
 #footer .footer-newsletter h4 {
   font-size: 24px;
-  margin: 0 0 20px 0;
+  margin: 0 0 6px 0;
   padding: 0;
   line-height: 1;
   font-weight: 600;
@@ -1695,8 +1694,9 @@ section {
   right: 0;
   bottom: 0;
   border: 0;
+  font-weight: 600;
   background: none;
-  font-size: 16px;
+  font-size: 15px;
   padding: 0 20px;
   background: red;
   color: #fff;
@@ -1710,7 +1710,7 @@ section {
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 40px 0 30px 0;
   background: #fff;
 }
 
@@ -1744,10 +1744,6 @@ section {
   color: #444444;
   position: relative;
   padding-bottom: 12px;
-}
-
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1786,7 +1782,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 16px;
   display: inline-block;
   background: red;
   color: #fff;
@@ -1795,8 +1791,8 @@ section {
   margin-right: 4px;
   border-radius: 4px;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 30px;
   transition: 0.3s;
 }
 
@@ -1865,8 +1861,7 @@ section {
 }
 
 .carousel {
-	margin: 20px auto;
-	padding: 0 70px;
+	padding: 0 40px;
 }
 .carousel .item {
 	min-height: 330px;
@@ -1891,7 +1886,6 @@ section {
   color: #333;
   border-radius: -13;
   font-size: 15px;
-  text-transform: uppercase;
   font-weight: 600;
   background: none;
   border: 1px solid #ccc;
@@ -2068,15 +2062,19 @@ form.user .form-control-user {
     margin-top: 0.5rem;    
 }
 form.user .btn-user {
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 10rem;
   padding: 10px;
   background-color: red;
   color: #fff;
   border-color: #fff;
   letter-spacing: 1.5px;  
-  font-weight: 600;
 }
+
+form.user .btn-user:hover{
+  background-color: black;
+}
+
 .botao .btn-block {
   display: block;
   width: 100%;
@@ -2085,12 +2083,12 @@ form.user .btn-user {
   color: black;
   border-color: #fff;
   margin-top: 6px;
-  font-size: 15px;
   background-color: none;
   border: 1px solid black;
-  font-size: .8rem;
   border-radius: 10rem;
-  padding: 0.75rem 1rem;
+  padding: 10px;
+  letter-spacing: 1.5px;  
+  font-size: 12px;
   
 }
 .botao .btn-google:hover{
@@ -2109,7 +2107,7 @@ form.user .btn-user {
 }
 
 #edit .logo {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -2213,3 +2211,4 @@ form.user .btn-user {
 #label{
   font-size: 14px;
 }
+

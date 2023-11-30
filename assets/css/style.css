@@ -601,10 +601,9 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  --bs-bg-opacity: 1;
-  background-color: #f1f6fe;
-
+.section-bg{  
+ --bs-bg-opacity: 1;
+ background-color: #f1f6fe;
 }
 
 .section-title {
@@ -908,9 +907,8 @@ section {
 --------------------------------------------------------------*/
 .clients {
   padding: 0px 0;
-    /* text-align: center; */
-    margin: 0 15%;
-    width: 70%;
+  text-align: center;
+   margin: 20px 0 13px 0;
 }
 
 .clients img {
