@@ -1425,7 +1425,7 @@ section {
   text-align: center;
 }
 
- .btn-buy {
+.pricing .btn-buy {
   background: red;
   display: inline-block;
   padding: 8px 35px 10px 35px;

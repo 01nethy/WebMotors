@@ -1425,7 +1425,7 @@ section {
   text-align: center;
 }
 
- .btn-buy {
+.pricing .btn-buy {
   background: red;
   display: inline-block;
   padding: 8px 35px 10px 35px;
@@ -1867,6 +1867,11 @@ section {
 
 .carousel {
 	padding: 0 40px;
+}
+.carousel .item {
+	min-height: 330px;
+    text-align: center;
+	overflow: hidden;
 }
 .carousel .item .img-box {
 	height: 160px;
